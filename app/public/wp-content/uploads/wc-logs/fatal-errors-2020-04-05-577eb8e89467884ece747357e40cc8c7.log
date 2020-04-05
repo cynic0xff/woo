@@ -14,3 +14,16 @@
 
 2020-04-05T15:19:48+00:00 CRITICAL syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 214
 
+2020-04-05T22:35:06+00:00 CRITICAL Uncaught Error: Class 'Abs_Custom_Shipping' not found in /app/public/wp-content/plugins/my-shipping/my-shipping.php:24
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(287): my_shipping_method('')
+#1 /app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(122): do_action('woocommerce_shi...')
+#4 /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(114): WC_Shipping->init()
+#5 /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(68): WC_Shipping->__construct()
+#6 /app/public/wp-content/plugins/woocommerce/includes/class-woocommerce.php(835): WC_Shipping::instance()
+#7 /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php(72): WooCommerce->shipping()
+#8 /app/public/wp-includes/class-wp-hook.php(287): wc_template_redirect('')
+#9 /app/public/wp-includes/class-wp-hook.ph in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 24
+

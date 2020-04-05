@@ -19,6 +19,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
  
     function my_shipping_method() {
         if ( ! class_exists( 'My_Shipping_Method' ) ) {
+            
             class My_Shipping_Method extends WC_Shipping_Method {
                
                 public function __construct() {
@@ -70,7 +71,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
                         'title' => __( 'Title', 'my' ),
                           'type' => 'text',
                           'description' => __( 'Title to be display on site', 'my' ),
-                          'default' => __( 'MyShipping', 'my' )
+                          'default' => __( 'MyShippingX', 'my' )
                           ),
  
                      'weight' => array(
@@ -87,7 +88,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
                 /**
                  * This function is used to calculate the shipping cost. Within this function we can check for weights, dimensions and other parameters.
                */
-                public function calculate_shipping( $package ) {
+                public function calculate_shipping( $package = array() ) {
                     
                     $weight = 0;
                     $cost = 0;
@@ -186,11 +187,12 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
                 $weightLimit = (int) $My_Shipping_Method->settings['weight'];
                 $weight = 0;
  
-                foreach ( $package['contents'] as $item_id => $values ) 
+                /*foreach ( $package['contents'] as $item_id => $values ) 
                 { 
                     $_product = $values['data']; 
                     $weight = $weight + $_product->get_weight() * $values['quantity']; 
                 }
+                */
  
                 $weight = wc_get_weight( $weight, 'kg' );
                 

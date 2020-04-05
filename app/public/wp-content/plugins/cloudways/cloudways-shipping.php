@@ -45,22 +45,29 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
                 function init_form_fields()
                 {
                     $this->form_fields = array(
+ 
                         'enabled' => array(
-                            'title' => __('Enable', 'cloudways'),
-                            'type' => 'checkbox',
-                            'default' => 'yes'
-                        ),
-                        'weight' => array(
-                            'title' => __('Weight (kg)', 'cloudways'),
-                            'type' => 'number',
-                            'default' => 50
-                        ),
+                             'title' => __( 'Enable', 'my' ),
+                             'type' => 'checkbox',
+                             'description' => __( 'Enable this shipping.', 'my' ),
+                             'default' => 'yes'
+                             ),
+    
                         'title' => array(
-                            'title' => __('Title', 'cloudways'),
-                            'type' => 'text',
-                            'default' => __('cloudways Shipping', 'cloudways')
-                        )
-                    );
+                           'title' => __( 'Title', 'my' ),
+                             'type' => 'text',
+                             'description' => __( 'Title to be display on site', 'my' ),
+                             'default' => __( 'MyShippingX', 'my' )
+                             ),
+    
+                        'weight' => array(
+                           'title' => __( 'Weight (kg)', 'my' ),
+                             'type' => 'number',
+                             'description' => __( 'Maximum allowed weight', 'my' ),
+                             'default' => 100
+                             ),
+    
+                        );
                 }
                 
                 public function cloudways_shipping_calculation($package)
