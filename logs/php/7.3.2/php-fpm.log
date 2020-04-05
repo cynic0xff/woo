@@ -1,0 +1,6 @@
+[05-Apr-2020 05:28:53] NOTICE: fpm is running, pid 1031
+[05-Apr-2020 05:28:53] NOTICE: ready to handle connections
+[05-Apr-2020 06:02:23] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[05-Apr-2020 06:02:26] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[05-Apr-2020 06:02:29] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[05-Apr-2020 14:56:47] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it

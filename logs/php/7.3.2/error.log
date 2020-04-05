@@ -1,0 +1,1089 @@
+[05-Apr-2020 06:03:19 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /app/public/wp-content/themes/storefront-child/functions.php on line 84
+[05-Apr-2020 06:47:38 UTC] PHP Fatal error:  Cannot redeclare request_shipping_quote_shipping_method() (previously declared in /app/public/wp-content/themes/storefront-child/functions.php:32) in /app/public/wp-content/themes/storefront-child/functions.php on line 129
+[05-Apr-2020 06:47:38 UTC] PHP Stack trace:
+[05-Apr-2020 06:47:38 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 06:47:38 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 06:47:38 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:13
+[05-Apr-2020 06:47:38 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[05-Apr-2020 06:47:38 UTC] PHP   5. require_once() /app/public/wp-config.php:76
+[05-Apr-2020 06:47:38 UTC] PHP   6. include() /app/public/wp-settings.php:514
+[05-Apr-2020 06:50:09 UTC] PHP Warning:  Declaration of WC_Your_Shipping_Method::calculate_shipping($package) should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/themes/storefront-child/functions.php on line 56
+[05-Apr-2020 06:50:09 UTC] PHP Stack trace:
+[05-Apr-2020 06:50:09 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 06:50:09 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 06:50:09 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 06:50:09 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 06:50:09 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 06:50:09 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 06:50:09 UTC] PHP   7. wc_template_redirect() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 06:50:09 UTC] PHP   8. WooCommerce->shipping() /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:72
+[05-Apr-2020 06:50:09 UTC] PHP   9. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/class-woocommerce.php:835
+[05-Apr-2020 06:50:09 UTC] PHP  10. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 06:50:09 UTC] PHP  11. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 06:50:09 UTC] PHP  12. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 06:50:09 UTC] PHP  13. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 06:50:09 UTC] PHP  14. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 06:50:09 UTC] PHP  15. your_shipping_method_init() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 06:50:10 UTC] PHP Warning:  Declaration of WC_Your_Shipping_Method::calculate_shipping($package) should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/themes/storefront-child/functions.php on line 56
+[05-Apr-2020 06:50:10 UTC] PHP Stack trace:
+[05-Apr-2020 06:50:10 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 06:50:10 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 06:50:10 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 06:50:10 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 06:50:10 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 06:50:10 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 06:50:10 UTC] PHP   7. WC_AJAX::do_wc_ajax() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 06:50:10 UTC] PHP   8. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:89
+[05-Apr-2020 06:50:10 UTC] PHP   9. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 06:50:10 UTC] PHP  10. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 06:50:10 UTC] PHP  11. WC_AJAX::update_order_review() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 06:50:10 UTC] PHP  12. WC_Cart->calculate_shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:356
+[05-Apr-2020 06:50:10 UTC] PHP  13. WooCommerce->shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-cart.php:1259
+[05-Apr-2020 06:50:10 UTC] PHP  14. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/class-woocommerce.php:835
+[05-Apr-2020 06:50:10 UTC] PHP  15. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 06:50:10 UTC] PHP  16. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 06:50:10 UTC] PHP  17. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 06:50:10 UTC] PHP  18. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 06:50:10 UTC] PHP  19. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 06:50:10 UTC] PHP  20. your_shipping_method_init() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 06:51:17 UTC] PHP Warning:  Declaration of WC_Your_Shipping_Method::calculate_shipping($package) should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/themes/storefront-child/functions.php on line 56
+[05-Apr-2020 06:51:17 UTC] PHP Stack trace:
+[05-Apr-2020 06:51:17 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 06:51:17 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 06:51:17 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 06:51:17 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 06:51:17 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 06:51:17 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 06:51:17 UTC] PHP   7. wc_template_redirect() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 06:51:17 UTC] PHP   8. WooCommerce->shipping() /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:72
+[05-Apr-2020 06:51:17 UTC] PHP   9. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/class-woocommerce.php:835
+[05-Apr-2020 06:51:17 UTC] PHP  10. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 06:51:17 UTC] PHP  11. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 06:51:17 UTC] PHP  12. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 06:51:17 UTC] PHP  13. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 06:51:17 UTC] PHP  14. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 06:51:17 UTC] PHP  15. your_shipping_method_init() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 06:51:18 UTC] PHP Warning:  Declaration of WC_Your_Shipping_Method::calculate_shipping($package) should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/themes/storefront-child/functions.php on line 56
+[05-Apr-2020 06:51:18 UTC] PHP Stack trace:
+[05-Apr-2020 06:51:18 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 06:51:18 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 06:51:18 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 06:51:18 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 06:51:18 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 06:51:18 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 06:51:18 UTC] PHP   7. WC_AJAX::do_wc_ajax() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 06:51:18 UTC] PHP   8. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:89
+[05-Apr-2020 06:51:18 UTC] PHP   9. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 06:51:18 UTC] PHP  10. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 06:51:18 UTC] PHP  11. WC_AJAX::update_order_review() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 06:51:18 UTC] PHP  12. WC_Cart->calculate_shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:356
+[05-Apr-2020 06:51:18 UTC] PHP  13. WooCommerce->shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-cart.php:1259
+[05-Apr-2020 06:51:18 UTC] PHP  14. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/class-woocommerce.php:835
+[05-Apr-2020 06:51:18 UTC] PHP  15. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 06:51:18 UTC] PHP  16. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 06:51:18 UTC] PHP  17. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 06:51:18 UTC] PHP  18. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 06:51:18 UTC] PHP  19. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 06:51:18 UTC] PHP  20. your_shipping_method_init() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 06:51:24 UTC] PHP Warning:  Declaration of WC_Your_Shipping_Method::calculate_shipping($package) should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/themes/storefront-child/functions.php on line 56
+[05-Apr-2020 06:51:24 UTC] PHP Stack trace:
+[05-Apr-2020 06:51:24 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 06:51:24 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 06:51:24 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 06:51:24 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 06:51:24 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 06:51:24 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 06:51:24 UTC] PHP   7. WC_AJAX::do_wc_ajax() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 06:51:24 UTC] PHP   8. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:89
+[05-Apr-2020 06:51:24 UTC] PHP   9. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 06:51:24 UTC] PHP  10. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 06:51:24 UTC] PHP  11. WC_AJAX::update_order_review() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 06:51:24 UTC] PHP  12. WC_Cart->calculate_shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:356
+[05-Apr-2020 06:51:24 UTC] PHP  13. WooCommerce->shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-cart.php:1259
+[05-Apr-2020 06:51:24 UTC] PHP  14. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/class-woocommerce.php:835
+[05-Apr-2020 06:51:24 UTC] PHP  15. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 06:51:24 UTC] PHP  16. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 06:51:24 UTC] PHP  17. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 06:51:24 UTC] PHP  18. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 06:51:24 UTC] PHP  19. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 06:51:24 UTC] PHP  20. your_shipping_method_init() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 06:51:25 UTC] PHP Warning:  Declaration of WC_Your_Shipping_Method::calculate_shipping($package) should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/themes/storefront-child/functions.php on line 56
+[05-Apr-2020 06:51:25 UTC] PHP Stack trace:
+[05-Apr-2020 06:51:25 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 06:51:25 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 06:51:25 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 06:51:25 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 06:51:25 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 06:51:25 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 06:51:25 UTC] PHP   7. WC_AJAX::do_wc_ajax() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 06:51:25 UTC] PHP   8. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:89
+[05-Apr-2020 06:51:25 UTC] PHP   9. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 06:51:25 UTC] PHP  10. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 06:51:25 UTC] PHP  11. WC_AJAX::update_order_review() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 06:51:25 UTC] PHP  12. WC_Cart->calculate_shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:356
+[05-Apr-2020 06:51:25 UTC] PHP  13. WooCommerce->shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-cart.php:1259
+[05-Apr-2020 06:51:25 UTC] PHP  14. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/class-woocommerce.php:835
+[05-Apr-2020 06:51:25 UTC] PHP  15. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 06:51:25 UTC] PHP  16. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 06:51:25 UTC] PHP  17. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 06:51:25 UTC] PHP  18. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 06:51:25 UTC] PHP  19. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 06:51:25 UTC] PHP  20. your_shipping_method_init() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:05:00 UTC] PHP Parse error:  syntax error, unexpected 'Formatting' (T_STRING) in /app/public/wp-content/plugins/cloudways/cloudways-shipping.php on line 309
+[05-Apr-2020 15:19:20 UTC] PHP Parse error:  syntax error, unexpected '**' (T_POW), expecting end of file in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 2
+[05-Apr-2020 15:19:21 UTC] PHP Parse error:  syntax error, unexpected '**' (T_POW), expecting end of file in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 2
+[05-Apr-2020 15:19:21 UTC] PHP Parse error:  syntax error, unexpected '**' (T_POW), expecting end of file in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 2
+[05-Apr-2020 15:19:47 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 214
+[05-Apr-2020 15:19:48 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 214
+[05-Apr-2020 15:19:48 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 214
+[05-Apr-2020 15:20:18 UTC] PHP Warning:  Declaration of My_Shipping_Method::calculate_shipping($package) should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 22
+[05-Apr-2020 15:20:18 UTC] PHP Stack trace:
+[05-Apr-2020 15:20:18 UTC] PHP   1. {main}() /app/public/wp-admin/admin.php:0
+[05-Apr-2020 15:20:18 UTC] PHP   2. do_action() /app/public/wp-admin/admin.php:232
+[05-Apr-2020 15:20:18 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:20:18 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:20:18 UTC] PHP   5. WC_Admin_Menus->settings_page_init() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:20:18 UTC] PHP   6. WooCommerce->shipping() /app/public/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-menus.php:92
+[05-Apr-2020 15:20:18 UTC] PHP   7. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/class-woocommerce.php:835
+[05-Apr-2020 15:20:18 UTC] PHP   8. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 15:20:18 UTC] PHP   9. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 15:20:18 UTC] PHP  10. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 15:20:18 UTC] PHP  11. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:20:18 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:20:18 UTC] PHP  13. my_shipping_method() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:20:31 UTC] PHP Warning:  Declaration of My_Shipping_Method::calculate_shipping($package) should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 22
+[05-Apr-2020 15:20:31 UTC] PHP Stack trace:
+[05-Apr-2020 15:20:31 UTC] PHP   1. {main}() /app/public/wp-admin/admin.php:0
+[05-Apr-2020 15:20:31 UTC] PHP   2. do_action() /app/public/wp-admin/admin.php:232
+[05-Apr-2020 15:20:31 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:20:31 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:20:31 UTC] PHP   5. WC_Admin_Menus->settings_page_init() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:20:31 UTC] PHP   6. WooCommerce->shipping() /app/public/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-menus.php:92
+[05-Apr-2020 15:20:31 UTC] PHP   7. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/class-woocommerce.php:835
+[05-Apr-2020 15:20:31 UTC] PHP   8. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 15:20:31 UTC] PHP   9. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 15:20:31 UTC] PHP  10. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 15:20:31 UTC] PHP  11. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:20:31 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:20:31 UTC] PHP  13. my_shipping_method() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:20:35 UTC] PHP Warning:  Declaration of My_Shipping_Method::calculate_shipping($package) should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 22
+[05-Apr-2020 15:20:35 UTC] PHP Stack trace:
+[05-Apr-2020 15:20:35 UTC] PHP   1. {main}() /app/public/wp-admin/admin.php:0
+[05-Apr-2020 15:20:35 UTC] PHP   2. do_action() /app/public/wp-admin/admin.php:232
+[05-Apr-2020 15:20:35 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:20:35 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:20:35 UTC] PHP   5. WC_Admin_Menus->settings_page_init() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:20:35 UTC] PHP   6. WooCommerce->shipping() /app/public/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-menus.php:92
+[05-Apr-2020 15:20:35 UTC] PHP   7. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/class-woocommerce.php:835
+[05-Apr-2020 15:20:35 UTC] PHP   8. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 15:20:35 UTC] PHP   9. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 15:20:35 UTC] PHP  10. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 15:20:35 UTC] PHP  11. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:20:35 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:20:35 UTC] PHP  13. my_shipping_method() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:20:38 UTC] PHP Warning:  Declaration of My_Shipping_Method::calculate_shipping($package) should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 22
+[05-Apr-2020 15:20:38 UTC] PHP Stack trace:
+[05-Apr-2020 15:20:38 UTC] PHP   1. {main}() /app/public/wp-admin/admin.php:0
+[05-Apr-2020 15:20:38 UTC] PHP   2. do_action() /app/public/wp-admin/admin.php:232
+[05-Apr-2020 15:20:39 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:20:39 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:20:39 UTC] PHP   5. WC_Admin_Menus->settings_page_init() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:20:39 UTC] PHP   6. WooCommerce->shipping() /app/public/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-menus.php:92
+[05-Apr-2020 15:20:39 UTC] PHP   7. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/class-woocommerce.php:835
+[05-Apr-2020 15:20:39 UTC] PHP   8. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 15:20:39 UTC] PHP   9. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 15:20:39 UTC] PHP  10. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 15:20:39 UTC] PHP  11. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:20:39 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:20:39 UTC] PHP  13. my_shipping_method() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:20:42 UTC] PHP Warning:  Declaration of My_Shipping_Method::calculate_shipping($package) should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 22
+[05-Apr-2020 15:20:42 UTC] PHP Stack trace:
+[05-Apr-2020 15:20:42 UTC] PHP   1. {main}() /app/public/wp-admin/admin.php:0
+[05-Apr-2020 15:20:42 UTC] PHP   2. do_action() /app/public/wp-admin/admin.php:232
+[05-Apr-2020 15:20:42 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:20:42 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:20:42 UTC] PHP   5. WC_Admin_Menus->settings_page_init() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:20:42 UTC] PHP   6. WooCommerce->shipping() /app/public/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-menus.php:92
+[05-Apr-2020 15:20:42 UTC] PHP   7. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/class-woocommerce.php:835
+[05-Apr-2020 15:20:42 UTC] PHP   8. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 15:20:42 UTC] PHP   9. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 15:20:42 UTC] PHP  10. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 15:20:42 UTC] PHP  11. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:20:42 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:20:42 UTC] PHP  13. my_shipping_method() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:21:03 UTC] PHP Warning:  Declaration of My_Shipping_Method::calculate_shipping($package) should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 22
+[05-Apr-2020 15:21:03 UTC] PHP Stack trace:
+[05-Apr-2020 15:21:03 UTC] PHP   1. {main}() /app/public/wp-admin/admin.php:0
+[05-Apr-2020 15:21:03 UTC] PHP   2. require_once() /app/public/wp-admin/admin.php:34
+[05-Apr-2020 15:21:03 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[05-Apr-2020 15:21:03 UTC] PHP   4. require_once() /app/public/wp-config.php:76
+[05-Apr-2020 15:21:03 UTC] PHP   5. do_action() /app/public/wp-settings.php:562
+[05-Apr-2020 15:21:03 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:21:03 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:21:03 UTC] PHP   8. WC_Admin_Menus->save_settings() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:21:03 UTC] PHP   9. WC_Admin_Settings::save() /app/public/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-menus.php:131
+[05-Apr-2020 15:21:03 UTC] PHP  10. do_action() /app/public/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-settings.php:77
+[05-Apr-2020 15:21:03 UTC] PHP  11. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:21:03 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:21:03 UTC] PHP  13. WC_Settings_Shipping->save() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:21:03 UTC] PHP  14. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-shipping.php:194
+[05-Apr-2020 15:21:03 UTC] PHP  15. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 15:21:03 UTC] PHP  16. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 15:21:03 UTC] PHP  17. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 15:21:03 UTC] PHP  18. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:21:03 UTC] PHP  19. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:21:03 UTC] PHP  20. my_shipping_method() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:21:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/plugins/my-shipping/my-shipping.php:22) in /app/public/wp-includes/functions.php on line 6221
+[05-Apr-2020 15:21:03 UTC] PHP Stack trace:
+[05-Apr-2020 15:21:03 UTC] PHP   1. {main}() /app/public/wp-admin/admin.php:0
+[05-Apr-2020 15:21:03 UTC] PHP   2. do_action() /app/public/wp-admin/admin.php:170
+[05-Apr-2020 15:21:03 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:21:03 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:21:03 UTC] PHP   5. send_frame_options_header() /app/public/wp-includes/class-wp-hook.php:285
+[05-Apr-2020 15:21:03 UTC] PHP   6. header() /app/public/wp-includes/functions.php:6221
+[05-Apr-2020 15:21:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/plugins/my-shipping/my-shipping.php:22) in /app/public/wp-admin/includes/misc.php on line 1259
+[05-Apr-2020 15:21:03 UTC] PHP Stack trace:
+[05-Apr-2020 15:21:03 UTC] PHP   1. {main}() /app/public/wp-admin/admin.php:0
+[05-Apr-2020 15:21:03 UTC] PHP   2. do_action() /app/public/wp-admin/admin.php:170
+[05-Apr-2020 15:21:03 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:21:03 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:21:03 UTC] PHP   5. wp_admin_headers() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:21:03 UTC] PHP   6. header() /app/public/wp-admin/includes/misc.php:1259
+[05-Apr-2020 15:21:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/plugins/my-shipping/my-shipping.php:22) in /app/public/wp-admin/admin-header.php on line 9
+[05-Apr-2020 15:21:03 UTC] PHP Stack trace:
+[05-Apr-2020 15:21:03 UTC] PHP   1. {main}() /app/public/wp-admin/admin.php:0
+[05-Apr-2020 15:21:03 UTC] PHP   2. require_once() /app/public/wp-admin/admin.php:234
+[05-Apr-2020 15:21:03 UTC] PHP   3. header() /app/public/wp-admin/admin-header.php:9
+[05-Apr-2020 15:21:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/plugins/my-shipping/my-shipping.php:22) in /app/public/wp-includes/option.php on line 961
+[05-Apr-2020 15:21:03 UTC] PHP Stack trace:
+[05-Apr-2020 15:21:03 UTC] PHP   1. {main}() /app/public/wp-admin/admin.php:0
+[05-Apr-2020 15:21:03 UTC] PHP   2. require_once() /app/public/wp-admin/admin.php:234
+[05-Apr-2020 15:21:03 UTC] PHP   3. wp_user_settings() /app/public/wp-admin/admin-header.php:70
+[05-Apr-2020 15:21:03 UTC] PHP   4. setcookie() /app/public/wp-includes/option.php:961
+[05-Apr-2020 15:21:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/plugins/my-shipping/my-shipping.php:22) in /app/public/wp-includes/option.php on line 962
+[05-Apr-2020 15:21:03 UTC] PHP Stack trace:
+[05-Apr-2020 15:21:03 UTC] PHP   1. {main}() /app/public/wp-admin/admin.php:0
+[05-Apr-2020 15:21:03 UTC] PHP   2. require_once() /app/public/wp-admin/admin.php:234
+[05-Apr-2020 15:21:03 UTC] PHP   3. wp_user_settings() /app/public/wp-admin/admin-header.php:70
+[05-Apr-2020 15:21:03 UTC] PHP   4. setcookie() /app/public/wp-includes/option.php:962
+[05-Apr-2020 15:21:15 UTC] PHP Warning:  Declaration of My_Shipping_Method::calculate_shipping($package) should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 22
+[05-Apr-2020 15:21:15 UTC] PHP Stack trace:
+[05-Apr-2020 15:21:15 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:21:15 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:21:15 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:21:15 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 15:21:15 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:21:15 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:21:15 UTC] PHP   7. wc_template_redirect() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:21:15 UTC] PHP   8. WooCommerce->shipping() /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:72
+[05-Apr-2020 15:21:15 UTC] PHP   9. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/class-woocommerce.php:835
+[05-Apr-2020 15:21:15 UTC] PHP  10. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 15:21:15 UTC] PHP  11. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 15:21:15 UTC] PHP  12. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 15:21:15 UTC] PHP  13. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:21:15 UTC] PHP  14. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:21:15 UTC] PHP  15. my_shipping_method() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:21:15 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 99
+[05-Apr-2020 15:21:15 UTC] PHP Stack trace:
+[05-Apr-2020 15:21:15 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:21:15 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:21:15 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:21:15 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:106
+[05-Apr-2020 15:21:15 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/storefront/page.php:24
+[05-Apr-2020 15:21:15 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[05-Apr-2020 15:21:15 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:672
+[05-Apr-2020 15:21:15 UTC] PHP   8. require() /app/public/wp-includes/template.php:725
+[05-Apr-2020 15:21:15 UTC] PHP   9. do_action() /app/public/wp-content/themes/storefront/content-page.php:18
+[05-Apr-2020 15:21:15 UTC] PHP  10. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:21:15 UTC] PHP  11. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:21:15 UTC] PHP  12. storefront_page_content() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:21:15 UTC] PHP  13. the_content() /app/public/wp-content/themes/storefront/inc/storefront-template-functions.php:351
+[05-Apr-2020 15:21:15 UTC] PHP  14. apply_filters() /app/public/wp-includes/post-template.php:253
+[05-Apr-2020 15:21:15 UTC] PHP  15. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:206
+[05-Apr-2020 15:21:15 UTC] PHP  16. do_shortcode() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:21:15 UTC] PHP  17. preg_replace_callback() /app/public/wp-includes/shortcodes.php:218
+[05-Apr-2020 15:21:15 UTC] PHP  18. do_shortcode_tag() /app/public/wp-includes/shortcodes.php:218
+[05-Apr-2020 15:21:15 UTC] PHP  19. WC_Shortcodes::checkout() /app/public/wp-includes/shortcodes.php:343
+[05-Apr-2020 15:21:15 UTC] PHP  20. WC_Shortcodes::shortcode_wrapper() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php:95
+[05-Apr-2020 15:21:15 UTC] PHP  21. WC_Shortcode_Checkout::output() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php:72
+[05-Apr-2020 15:21:15 UTC] PHP  22. WC_Shortcode_Checkout::checkout() /app/public/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php:67
+[05-Apr-2020 15:21:15 UTC] PHP  23. WC_Cart->calculate_totals() /app/public/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php:276
+[05-Apr-2020 15:21:15 UTC] PHP  24. WC_Cart_Totals->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-cart.php:1237
+[05-Apr-2020 15:21:15 UTC] PHP  25. WC_Cart_Totals->calculate() /app/public/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:132
+[05-Apr-2020 15:21:15 UTC] PHP  26. WC_Cart_Totals->calculate_shipping_totals() /app/public/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:142
+[05-Apr-2020 15:21:15 UTC] PHP  27. WC_Cart_Totals->get_shipping_from_cart() /app/public/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:848
+[05-Apr-2020 15:21:15 UTC] PHP  28. WC_Cart->calculate_shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:337
+[05-Apr-2020 15:21:15 UTC] PHP  29. WC_Shipping->calculate_shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-cart.php:1259
+[05-Apr-2020 15:21:15 UTC] PHP  30. WC_Shipping->calculate_shipping_for_package() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:260
+[05-Apr-2020 15:21:15 UTC] PHP  31. My_Shipping_Method->get_rates_for_package() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:335
+[05-Apr-2020 15:21:15 UTC] PHP  32. My_Shipping_Method->calculate_shipping() /app/public/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php:233
+[05-Apr-2020 15:21:15 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 189
+[05-Apr-2020 15:21:15 UTC] PHP Stack trace:
+[05-Apr-2020 15:21:15 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:21:15 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:21:15 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:21:15 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:106
+[05-Apr-2020 15:21:15 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/storefront/page.php:24
+[05-Apr-2020 15:21:15 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[05-Apr-2020 15:21:15 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:672
+[05-Apr-2020 15:21:15 UTC] PHP   8. require() /app/public/wp-includes/template.php:725
+[05-Apr-2020 15:21:15 UTC] PHP   9. do_action() /app/public/wp-content/themes/storefront/content-page.php:18
+[05-Apr-2020 15:21:15 UTC] PHP  10. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:21:15 UTC] PHP  11. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:21:15 UTC] PHP  12. storefront_page_content() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:21:15 UTC] PHP  13. the_content() /app/public/wp-content/themes/storefront/inc/storefront-template-functions.php:351
+[05-Apr-2020 15:21:15 UTC] PHP  14. apply_filters() /app/public/wp-includes/post-template.php:253
+[05-Apr-2020 15:21:15 UTC] PHP  15. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:206
+[05-Apr-2020 15:21:15 UTC] PHP  16. do_shortcode() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:21:15 UTC] PHP  17. preg_replace_callback() /app/public/wp-includes/shortcodes.php:218
+[05-Apr-2020 15:21:15 UTC] PHP  18. do_shortcode_tag() /app/public/wp-includes/shortcodes.php:218
+[05-Apr-2020 15:21:15 UTC] PHP  19. WC_Shortcodes::checkout() /app/public/wp-includes/shortcodes.php:343
+[05-Apr-2020 15:21:15 UTC] PHP  20. WC_Shortcodes::shortcode_wrapper() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php:95
+[05-Apr-2020 15:21:15 UTC] PHP  21. WC_Shortcode_Checkout::output() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php:72
+[05-Apr-2020 15:21:15 UTC] PHP  22. WC_Shortcode_Checkout::checkout() /app/public/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php:67
+[05-Apr-2020 15:21:15 UTC] PHP  23. wc_get_template() /app/public/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php:294
+[05-Apr-2020 15:21:15 UTC] PHP  24. include() /app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:251
+[05-Apr-2020 15:21:15 UTC] PHP  25. do_action() /app/public/wp-content/themes/storefront-child/woocommerce/checkout/form-checkout.php:64
+[05-Apr-2020 15:21:15 UTC] PHP  26. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:21:15 UTC] PHP  27. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:21:15 UTC] PHP  28. woocommerce_order_review() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:21:15 UTC] PHP  29. wc_get_template() /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:2216
+[05-Apr-2020 15:21:15 UTC] PHP  30. include() /app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:251
+[05-Apr-2020 15:21:15 UTC] PHP  31. do_action() /app/public/wp-content/plugins/woocommerce/templates/checkout/review-order.php:29
+[05-Apr-2020 15:21:15 UTC] PHP  32. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:21:15 UTC] PHP  33. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:21:15 UTC] PHP  34. my_validate_order() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:21:16 UTC] PHP Warning:  Declaration of My_Shipping_Method::calculate_shipping($package) should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 22
+[05-Apr-2020 15:21:16 UTC] PHP Stack trace:
+[05-Apr-2020 15:21:16 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:21:16 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:21:16 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:21:16 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 15:21:16 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:21:16 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:21:16 UTC] PHP   7. WC_AJAX::do_wc_ajax() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:21:16 UTC] PHP   8. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:89
+[05-Apr-2020 15:21:16 UTC] PHP   9. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:21:16 UTC] PHP  10. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:21:16 UTC] PHP  11. WC_AJAX::update_order_review() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:21:16 UTC] PHP  12. WC_Cart->calculate_shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:356
+[05-Apr-2020 15:21:16 UTC] PHP  13. WooCommerce->shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-cart.php:1259
+[05-Apr-2020 15:21:16 UTC] PHP  14. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/class-woocommerce.php:835
+[05-Apr-2020 15:21:16 UTC] PHP  15. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 15:21:16 UTC] PHP  16. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 15:21:16 UTC] PHP  17. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 15:21:16 UTC] PHP  18. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:21:16 UTC] PHP  19. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:21:16 UTC] PHP  20. my_shipping_method() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:21:16 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 189
+[05-Apr-2020 15:21:16 UTC] PHP Stack trace:
+[05-Apr-2020 15:21:16 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:21:16 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:21:16 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:21:16 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 15:21:16 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:21:16 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:21:16 UTC] PHP   7. WC_AJAX::do_wc_ajax() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:21:16 UTC] PHP   8. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:89
+[05-Apr-2020 15:21:16 UTC] PHP   9. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:21:16 UTC] PHP  10. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:21:16 UTC] PHP  11. WC_AJAX::update_order_review() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:21:16 UTC] PHP  12. woocommerce_order_review() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:361
+[05-Apr-2020 15:21:16 UTC] PHP  13. wc_get_template() /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:2216
+[05-Apr-2020 15:21:16 UTC] PHP  14. include() /app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:251
+[05-Apr-2020 15:21:16 UTC] PHP  15. do_action() /app/public/wp-content/plugins/woocommerce/templates/checkout/review-order.php:29
+[05-Apr-2020 15:21:16 UTC] PHP  16. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:21:16 UTC] PHP  17. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:21:16 UTC] PHP  18. my_validate_order() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:21:33 UTC] PHP Warning:  Declaration of My_Shipping_Method::calculate_shipping($package) should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 22
+[05-Apr-2020 15:21:33 UTC] PHP Stack trace:
+[05-Apr-2020 15:21:33 UTC] PHP   1. {main}() /app/public/wp-admin/admin.php:0
+[05-Apr-2020 15:21:33 UTC] PHP   2. require_once() /app/public/wp-admin/admin.php:34
+[05-Apr-2020 15:21:33 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[05-Apr-2020 15:21:33 UTC] PHP   4. require_once() /app/public/wp-config.php:76
+[05-Apr-2020 15:21:33 UTC] PHP   5. do_action() /app/public/wp-settings.php:562
+[05-Apr-2020 15:21:33 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:21:33 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:21:33 UTC] PHP   8. WC_Admin_Menus->save_settings() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:21:33 UTC] PHP   9. WC_Admin_Settings::save() /app/public/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-menus.php:131
+[05-Apr-2020 15:21:33 UTC] PHP  10. do_action() /app/public/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-settings.php:77
+[05-Apr-2020 15:21:33 UTC] PHP  11. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:21:33 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:21:33 UTC] PHP  13. WC_Settings_Shipping->save() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:21:33 UTC] PHP  14. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-shipping.php:194
+[05-Apr-2020 15:21:33 UTC] PHP  15. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 15:21:33 UTC] PHP  16. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 15:21:33 UTC] PHP  17. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 15:21:33 UTC] PHP  18. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:21:33 UTC] PHP  19. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:21:33 UTC] PHP  20. my_shipping_method() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:21:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/plugins/my-shipping/my-shipping.php:22) in /app/public/wp-includes/functions.php on line 6221
+[05-Apr-2020 15:21:33 UTC] PHP Stack trace:
+[05-Apr-2020 15:21:33 UTC] PHP   1. {main}() /app/public/wp-admin/admin.php:0
+[05-Apr-2020 15:21:33 UTC] PHP   2. do_action() /app/public/wp-admin/admin.php:170
+[05-Apr-2020 15:21:33 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:21:33 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:21:33 UTC] PHP   5. send_frame_options_header() /app/public/wp-includes/class-wp-hook.php:285
+[05-Apr-2020 15:21:33 UTC] PHP   6. header() /app/public/wp-includes/functions.php:6221
+[05-Apr-2020 15:21:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/plugins/my-shipping/my-shipping.php:22) in /app/public/wp-admin/includes/misc.php on line 1259
+[05-Apr-2020 15:21:33 UTC] PHP Stack trace:
+[05-Apr-2020 15:21:33 UTC] PHP   1. {main}() /app/public/wp-admin/admin.php:0
+[05-Apr-2020 15:21:33 UTC] PHP   2. do_action() /app/public/wp-admin/admin.php:170
+[05-Apr-2020 15:21:33 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:21:33 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:21:33 UTC] PHP   5. wp_admin_headers() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:21:33 UTC] PHP   6. header() /app/public/wp-admin/includes/misc.php:1259
+[05-Apr-2020 15:21:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/plugins/my-shipping/my-shipping.php:22) in /app/public/wp-admin/admin-header.php on line 9
+[05-Apr-2020 15:21:33 UTC] PHP Stack trace:
+[05-Apr-2020 15:21:33 UTC] PHP   1. {main}() /app/public/wp-admin/admin.php:0
+[05-Apr-2020 15:21:33 UTC] PHP   2. require_once() /app/public/wp-admin/admin.php:234
+[05-Apr-2020 15:21:33 UTC] PHP   3. header() /app/public/wp-admin/admin-header.php:9
+[05-Apr-2020 15:21:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/plugins/my-shipping/my-shipping.php:22) in /app/public/wp-includes/option.php on line 961
+[05-Apr-2020 15:21:33 UTC] PHP Stack trace:
+[05-Apr-2020 15:21:33 UTC] PHP   1. {main}() /app/public/wp-admin/admin.php:0
+[05-Apr-2020 15:21:33 UTC] PHP   2. require_once() /app/public/wp-admin/admin.php:234
+[05-Apr-2020 15:21:33 UTC] PHP   3. wp_user_settings() /app/public/wp-admin/admin-header.php:70
+[05-Apr-2020 15:21:33 UTC] PHP   4. setcookie() /app/public/wp-includes/option.php:961
+[05-Apr-2020 15:21:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/plugins/my-shipping/my-shipping.php:22) in /app/public/wp-includes/option.php on line 962
+[05-Apr-2020 15:21:33 UTC] PHP Stack trace:
+[05-Apr-2020 15:21:33 UTC] PHP   1. {main}() /app/public/wp-admin/admin.php:0
+[05-Apr-2020 15:21:33 UTC] PHP   2. require_once() /app/public/wp-admin/admin.php:234
+[05-Apr-2020 15:21:33 UTC] PHP   3. wp_user_settings() /app/public/wp-admin/admin-header.php:70
+[05-Apr-2020 15:21:33 UTC] PHP   4. setcookie() /app/public/wp-includes/option.php:962
+[05-Apr-2020 15:21:40 UTC] PHP Warning:  Declaration of My_Shipping_Method::calculate_shipping($package) should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 22
+[05-Apr-2020 15:21:40 UTC] PHP Stack trace:
+[05-Apr-2020 15:21:40 UTC] PHP   1. {main}() /app/public/wp-admin/admin.php:0
+[05-Apr-2020 15:21:40 UTC] PHP   2. require_once() /app/public/wp-admin/admin.php:34
+[05-Apr-2020 15:21:40 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[05-Apr-2020 15:21:40 UTC] PHP   4. require_once() /app/public/wp-config.php:76
+[05-Apr-2020 15:21:40 UTC] PHP   5. do_action() /app/public/wp-settings.php:562
+[05-Apr-2020 15:21:40 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:21:40 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:21:40 UTC] PHP   8. WC_Admin_Menus->save_settings() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:21:40 UTC] PHP   9. WC_Admin_Settings::save() /app/public/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-menus.php:131
+[05-Apr-2020 15:21:40 UTC] PHP  10. do_action() /app/public/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-settings.php:77
+[05-Apr-2020 15:21:40 UTC] PHP  11. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:21:40 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:21:40 UTC] PHP  13. WC_Settings_Shipping->save() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:21:40 UTC] PHP  14. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-shipping.php:194
+[05-Apr-2020 15:21:40 UTC] PHP  15. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 15:21:40 UTC] PHP  16. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 15:21:40 UTC] PHP  17. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 15:21:40 UTC] PHP  18. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:21:40 UTC] PHP  19. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:21:40 UTC] PHP  20. my_shipping_method() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:21:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/plugins/my-shipping/my-shipping.php:22) in /app/public/wp-includes/functions.php on line 6221
+[05-Apr-2020 15:21:40 UTC] PHP Stack trace:
+[05-Apr-2020 15:21:40 UTC] PHP   1. {main}() /app/public/wp-admin/admin.php:0
+[05-Apr-2020 15:21:40 UTC] PHP   2. do_action() /app/public/wp-admin/admin.php:170
+[05-Apr-2020 15:21:40 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:21:40 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:21:40 UTC] PHP   5. send_frame_options_header() /app/public/wp-includes/class-wp-hook.php:285
+[05-Apr-2020 15:21:40 UTC] PHP   6. header() /app/public/wp-includes/functions.php:6221
+[05-Apr-2020 15:21:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/plugins/my-shipping/my-shipping.php:22) in /app/public/wp-admin/includes/misc.php on line 1259
+[05-Apr-2020 15:21:40 UTC] PHP Stack trace:
+[05-Apr-2020 15:21:40 UTC] PHP   1. {main}() /app/public/wp-admin/admin.php:0
+[05-Apr-2020 15:21:40 UTC] PHP   2. do_action() /app/public/wp-admin/admin.php:170
+[05-Apr-2020 15:21:40 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:21:40 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:21:40 UTC] PHP   5. wp_admin_headers() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:21:40 UTC] PHP   6. header() /app/public/wp-admin/includes/misc.php:1259
+[05-Apr-2020 15:21:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/plugins/my-shipping/my-shipping.php:22) in /app/public/wp-admin/admin-header.php on line 9
+[05-Apr-2020 15:21:40 UTC] PHP Stack trace:
+[05-Apr-2020 15:21:40 UTC] PHP   1. {main}() /app/public/wp-admin/admin.php:0
+[05-Apr-2020 15:21:40 UTC] PHP   2. require_once() /app/public/wp-admin/admin.php:234
+[05-Apr-2020 15:21:40 UTC] PHP   3. header() /app/public/wp-admin/admin-header.php:9
+[05-Apr-2020 15:21:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/plugins/my-shipping/my-shipping.php:22) in /app/public/wp-includes/option.php on line 961
+[05-Apr-2020 15:21:40 UTC] PHP Stack trace:
+[05-Apr-2020 15:21:40 UTC] PHP   1. {main}() /app/public/wp-admin/admin.php:0
+[05-Apr-2020 15:21:40 UTC] PHP   2. require_once() /app/public/wp-admin/admin.php:234
+[05-Apr-2020 15:21:40 UTC] PHP   3. wp_user_settings() /app/public/wp-admin/admin-header.php:70
+[05-Apr-2020 15:21:40 UTC] PHP   4. setcookie() /app/public/wp-includes/option.php:961
+[05-Apr-2020 15:21:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/plugins/my-shipping/my-shipping.php:22) in /app/public/wp-includes/option.php on line 962
+[05-Apr-2020 15:21:40 UTC] PHP Stack trace:
+[05-Apr-2020 15:21:40 UTC] PHP   1. {main}() /app/public/wp-admin/admin.php:0
+[05-Apr-2020 15:21:40 UTC] PHP   2. require_once() /app/public/wp-admin/admin.php:234
+[05-Apr-2020 15:21:40 UTC] PHP   3. wp_user_settings() /app/public/wp-admin/admin-header.php:70
+[05-Apr-2020 15:21:40 UTC] PHP   4. setcookie() /app/public/wp-includes/option.php:962
+[05-Apr-2020 15:23:54 UTC] PHP Warning:  Declaration of My_Shipping_Method::calculate_shipping($package) should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 22
+[05-Apr-2020 15:23:54 UTC] PHP Stack trace:
+[05-Apr-2020 15:23:54 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:23:54 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:23:54 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:23:54 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 15:23:54 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:23:54 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:23:54 UTC] PHP   7. wc_template_redirect() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:23:54 UTC] PHP   8. WooCommerce->shipping() /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:72
+[05-Apr-2020 15:23:54 UTC] PHP   9. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/class-woocommerce.php:835
+[05-Apr-2020 15:23:54 UTC] PHP  10. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 15:23:54 UTC] PHP  11. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 15:23:54 UTC] PHP  12. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 15:23:54 UTC] PHP  13. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:23:54 UTC] PHP  14. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:23:54 UTC] PHP  15. my_shipping_method() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:23:55 UTC] PHP Warning:  Declaration of My_Shipping_Method::calculate_shipping($package) should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 22
+[05-Apr-2020 15:23:55 UTC] PHP Stack trace:
+[05-Apr-2020 15:23:55 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:23:55 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:23:55 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:23:55 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 15:23:55 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:23:55 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:23:55 UTC] PHP   7. WC_AJAX::do_wc_ajax() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:23:55 UTC] PHP   8. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:89
+[05-Apr-2020 15:23:55 UTC] PHP   9. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:23:55 UTC] PHP  10. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:23:55 UTC] PHP  11. WC_AJAX::update_order_review() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:23:55 UTC] PHP  12. WC_Cart->calculate_shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:356
+[05-Apr-2020 15:23:55 UTC] PHP  13. WooCommerce->shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-cart.php:1259
+[05-Apr-2020 15:23:55 UTC] PHP  14. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/class-woocommerce.php:835
+[05-Apr-2020 15:23:55 UTC] PHP  15. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 15:23:55 UTC] PHP  16. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 15:23:55 UTC] PHP  17. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 15:23:55 UTC] PHP  18. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:23:55 UTC] PHP  19. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:23:55 UTC] PHP  20. my_shipping_method() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:24:37 UTC] PHP Warning:  Declaration of My_Shipping_Method::calculate_shipping($package) should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 22
+[05-Apr-2020 15:24:37 UTC] PHP Stack trace:
+[05-Apr-2020 15:24:37 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:24:37 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:24:37 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:24:37 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 15:24:37 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:24:37 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:24:37 UTC] PHP   7. wc_template_redirect() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:24:37 UTC] PHP   8. WooCommerce->shipping() /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:72
+[05-Apr-2020 15:24:37 UTC] PHP   9. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/class-woocommerce.php:835
+[05-Apr-2020 15:24:37 UTC] PHP  10. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 15:24:37 UTC] PHP  11. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 15:24:37 UTC] PHP  12. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 15:24:37 UTC] PHP  13. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:24:37 UTC] PHP  14. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:24:37 UTC] PHP  15. my_shipping_method() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:24:38 UTC] PHP Warning:  Declaration of My_Shipping_Method::calculate_shipping($package) should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 22
+[05-Apr-2020 15:24:38 UTC] PHP Stack trace:
+[05-Apr-2020 15:24:38 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:24:38 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:24:38 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:24:38 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 15:24:38 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:24:38 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:24:38 UTC] PHP   7. WC_AJAX::do_wc_ajax() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:24:38 UTC] PHP   8. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:89
+[05-Apr-2020 15:24:38 UTC] PHP   9. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:24:38 UTC] PHP  10. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:24:38 UTC] PHP  11. WC_AJAX::update_order_review() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:24:38 UTC] PHP  12. WC_Cart->calculate_shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:356
+[05-Apr-2020 15:24:38 UTC] PHP  13. WooCommerce->shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-cart.php:1259
+[05-Apr-2020 15:24:38 UTC] PHP  14. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/class-woocommerce.php:835
+[05-Apr-2020 15:24:38 UTC] PHP  15. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 15:24:38 UTC] PHP  16. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 15:24:38 UTC] PHP  17. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 15:24:38 UTC] PHP  18. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:24:38 UTC] PHP  19. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:24:38 UTC] PHP  20. my_shipping_method() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:24:44 UTC] PHP Warning:  Declaration of My_Shipping_Method::calculate_shipping($package) should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 22
+[05-Apr-2020 15:24:44 UTC] PHP Stack trace:
+[05-Apr-2020 15:24:44 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:24:44 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:24:44 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:24:44 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 15:24:44 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:24:44 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:24:44 UTC] PHP   7. wc_template_redirect() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:24:44 UTC] PHP   8. WooCommerce->shipping() /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:72
+[05-Apr-2020 15:24:44 UTC] PHP   9. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/class-woocommerce.php:835
+[05-Apr-2020 15:24:44 UTC] PHP  10. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 15:24:44 UTC] PHP  11. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 15:24:44 UTC] PHP  12. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 15:24:44 UTC] PHP  13. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:24:44 UTC] PHP  14. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:24:44 UTC] PHP  15. my_shipping_method() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:24:45 UTC] PHP Warning:  Declaration of My_Shipping_Method::calculate_shipping($package) should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 22
+[05-Apr-2020 15:24:45 UTC] PHP Stack trace:
+[05-Apr-2020 15:24:45 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:24:45 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:24:45 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:24:45 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 15:24:45 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:24:45 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:24:45 UTC] PHP   7. WC_AJAX::do_wc_ajax() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:24:45 UTC] PHP   8. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:89
+[05-Apr-2020 15:24:45 UTC] PHP   9. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:24:45 UTC] PHP  10. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:24:45 UTC] PHP  11. WC_AJAX::update_order_review() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:24:45 UTC] PHP  12. WC_Cart->calculate_shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:356
+[05-Apr-2020 15:24:45 UTC] PHP  13. WooCommerce->shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-cart.php:1259
+[05-Apr-2020 15:24:45 UTC] PHP  14. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/class-woocommerce.php:835
+[05-Apr-2020 15:24:45 UTC] PHP  15. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 15:24:45 UTC] PHP  16. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 15:24:45 UTC] PHP  17. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 15:24:45 UTC] PHP  18. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:24:45 UTC] PHP  19. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:24:45 UTC] PHP  20. my_shipping_method() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:25:20 UTC] PHP Warning:  Declaration of My_Shipping_Method::calculate_shipping($package) should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 22
+[05-Apr-2020 15:25:20 UTC] PHP Stack trace:
+[05-Apr-2020 15:25:20 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:25:20 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:25:20 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:25:20 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 15:25:20 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:25:20 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:25:20 UTC] PHP   7. WC_AJAX::do_wc_ajax() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:25:20 UTC] PHP   8. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:89
+[05-Apr-2020 15:25:20 UTC] PHP   9. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:25:20 UTC] PHP  10. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:25:20 UTC] PHP  11. WC_AJAX::update_order_review() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:25:20 UTC] PHP  12. WC_Cart->calculate_shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:356
+[05-Apr-2020 15:25:20 UTC] PHP  13. WooCommerce->shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-cart.php:1259
+[05-Apr-2020 15:25:20 UTC] PHP  14. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/class-woocommerce.php:835
+[05-Apr-2020 15:25:20 UTC] PHP  15. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 15:25:20 UTC] PHP  16. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 15:25:20 UTC] PHP  17. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 15:25:20 UTC] PHP  18. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:25:20 UTC] PHP  19. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:25:20 UTC] PHP  20. my_shipping_method() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:25:20 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 99
+[05-Apr-2020 15:25:20 UTC] PHP Stack trace:
+[05-Apr-2020 15:25:20 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:25:20 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:25:20 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:25:20 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 15:25:20 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:25:20 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:25:20 UTC] PHP   7. WC_AJAX::do_wc_ajax() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:25:20 UTC] PHP   8. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:89
+[05-Apr-2020 15:25:20 UTC] PHP   9. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:25:20 UTC] PHP  10. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:25:20 UTC] PHP  11. WC_AJAX::update_order_review() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:25:20 UTC] PHP  12. WC_Cart->calculate_shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:356
+[05-Apr-2020 15:25:20 UTC] PHP  13. WC_Shipping->calculate_shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-cart.php:1259
+[05-Apr-2020 15:25:20 UTC] PHP  14. WC_Shipping->calculate_shipping_for_package() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:260
+[05-Apr-2020 15:25:20 UTC] PHP  15. My_Shipping_Method->get_rates_for_package() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:335
+[05-Apr-2020 15:25:20 UTC] PHP  16. My_Shipping_Method->calculate_shipping() /app/public/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php:233
+[05-Apr-2020 15:25:20 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 189
+[05-Apr-2020 15:25:20 UTC] PHP Stack trace:
+[05-Apr-2020 15:25:20 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:25:20 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:25:20 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:25:20 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 15:25:20 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:25:20 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:25:20 UTC] PHP   7. WC_AJAX::do_wc_ajax() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:25:20 UTC] PHP   8. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:89
+[05-Apr-2020 15:25:20 UTC] PHP   9. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:25:20 UTC] PHP  10. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:25:20 UTC] PHP  11. WC_AJAX::update_order_review() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:25:20 UTC] PHP  12. woocommerce_order_review() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:361
+[05-Apr-2020 15:25:20 UTC] PHP  13. wc_get_template() /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:2216
+[05-Apr-2020 15:25:20 UTC] PHP  14. include() /app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:251
+[05-Apr-2020 15:25:20 UTC] PHP  15. do_action() /app/public/wp-content/plugins/woocommerce/templates/checkout/review-order.php:29
+[05-Apr-2020 15:25:20 UTC] PHP  16. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:25:20 UTC] PHP  17. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:25:20 UTC] PHP  18. my_validate_order() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:25:49 UTC] PHP Warning:  Declaration of My_Shipping_Method::calculate_shipping($package) should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 22
+[05-Apr-2020 15:25:49 UTC] PHP Stack trace:
+[05-Apr-2020 15:25:49 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:25:49 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:25:49 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:25:49 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 15:25:49 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:25:49 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:25:49 UTC] PHP   7. wc_template_redirect() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:25:49 UTC] PHP   8. WooCommerce->shipping() /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:72
+[05-Apr-2020 15:25:49 UTC] PHP   9. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/class-woocommerce.php:835
+[05-Apr-2020 15:25:49 UTC] PHP  10. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 15:25:49 UTC] PHP  11. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 15:25:49 UTC] PHP  12. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 15:25:49 UTC] PHP  13. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:25:49 UTC] PHP  14. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:25:49 UTC] PHP  15. my_shipping_method() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:25:49 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 189
+[05-Apr-2020 15:25:49 UTC] PHP Stack trace:
+[05-Apr-2020 15:25:49 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:25:49 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:25:49 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:25:49 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:106
+[05-Apr-2020 15:25:49 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/storefront/page.php:24
+[05-Apr-2020 15:25:49 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[05-Apr-2020 15:25:49 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:672
+[05-Apr-2020 15:25:49 UTC] PHP   8. require() /app/public/wp-includes/template.php:725
+[05-Apr-2020 15:25:49 UTC] PHP   9. do_action() /app/public/wp-content/themes/storefront/content-page.php:18
+[05-Apr-2020 15:25:49 UTC] PHP  10. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:25:49 UTC] PHP  11. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:25:49 UTC] PHP  12. storefront_page_content() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:25:49 UTC] PHP  13. the_content() /app/public/wp-content/themes/storefront/inc/storefront-template-functions.php:351
+[05-Apr-2020 15:25:49 UTC] PHP  14. apply_filters() /app/public/wp-includes/post-template.php:253
+[05-Apr-2020 15:25:49 UTC] PHP  15. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:206
+[05-Apr-2020 15:25:49 UTC] PHP  16. do_shortcode() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:25:49 UTC] PHP  17. preg_replace_callback() /app/public/wp-includes/shortcodes.php:218
+[05-Apr-2020 15:25:49 UTC] PHP  18. do_shortcode_tag() /app/public/wp-includes/shortcodes.php:218
+[05-Apr-2020 15:25:49 UTC] PHP  19. WC_Shortcodes::checkout() /app/public/wp-includes/shortcodes.php:343
+[05-Apr-2020 15:25:49 UTC] PHP  20. WC_Shortcodes::shortcode_wrapper() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php:95
+[05-Apr-2020 15:25:49 UTC] PHP  21. WC_Shortcode_Checkout::output() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php:72
+[05-Apr-2020 15:25:49 UTC] PHP  22. WC_Shortcode_Checkout::checkout() /app/public/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php:67
+[05-Apr-2020 15:25:49 UTC] PHP  23. wc_get_template() /app/public/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php:294
+[05-Apr-2020 15:25:49 UTC] PHP  24. include() /app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:251
+[05-Apr-2020 15:25:49 UTC] PHP  25. do_action() /app/public/wp-content/themes/storefront-child/woocommerce/checkout/form-checkout.php:64
+[05-Apr-2020 15:25:50 UTC] PHP  26. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:25:50 UTC] PHP  27. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:25:50 UTC] PHP  28. woocommerce_order_review() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:25:50 UTC] PHP  29. wc_get_template() /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:2216
+[05-Apr-2020 15:25:50 UTC] PHP  30. include() /app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:251
+[05-Apr-2020 15:25:50 UTC] PHP  31. do_action() /app/public/wp-content/plugins/woocommerce/templates/checkout/review-order.php:29
+[05-Apr-2020 15:25:50 UTC] PHP  32. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:25:50 UTC] PHP  33. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:25:50 UTC] PHP  34. my_validate_order() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:25:50 UTC] PHP Warning:  Declaration of My_Shipping_Method::calculate_shipping($package) should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 22
+[05-Apr-2020 15:25:50 UTC] PHP Stack trace:
+[05-Apr-2020 15:25:50 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:25:50 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:25:50 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:25:50 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 15:25:50 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:25:50 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:25:50 UTC] PHP   7. WC_AJAX::do_wc_ajax() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:25:50 UTC] PHP   8. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:89
+[05-Apr-2020 15:25:50 UTC] PHP   9. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:25:50 UTC] PHP  10. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:25:50 UTC] PHP  11. WC_AJAX::update_order_review() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:25:50 UTC] PHP  12. WC_Cart->calculate_shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:356
+[05-Apr-2020 15:25:50 UTC] PHP  13. WooCommerce->shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-cart.php:1259
+[05-Apr-2020 15:25:50 UTC] PHP  14. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/class-woocommerce.php:835
+[05-Apr-2020 15:25:50 UTC] PHP  15. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 15:25:50 UTC] PHP  16. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 15:25:50 UTC] PHP  17. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 15:25:50 UTC] PHP  18. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:25:50 UTC] PHP  19. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:25:50 UTC] PHP  20. my_shipping_method() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:25:50 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 189
+[05-Apr-2020 15:25:50 UTC] PHP Stack trace:
+[05-Apr-2020 15:25:50 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:25:50 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:25:50 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:25:50 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 15:25:50 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:25:50 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:25:50 UTC] PHP   7. WC_AJAX::do_wc_ajax() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:25:50 UTC] PHP   8. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:89
+[05-Apr-2020 15:25:50 UTC] PHP   9. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:25:50 UTC] PHP  10. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:25:50 UTC] PHP  11. WC_AJAX::update_order_review() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:25:50 UTC] PHP  12. woocommerce_order_review() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:361
+[05-Apr-2020 15:25:50 UTC] PHP  13. wc_get_template() /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:2216
+[05-Apr-2020 15:25:50 UTC] PHP  14. include() /app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:251
+[05-Apr-2020 15:25:50 UTC] PHP  15. do_action() /app/public/wp-content/plugins/woocommerce/templates/checkout/review-order.php:29
+[05-Apr-2020 15:25:50 UTC] PHP  16. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:25:50 UTC] PHP  17. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:25:50 UTC] PHP  18. my_validate_order() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:28:17 UTC] PHP Warning:  Declaration of My_Shipping_Method::calculate_shipping($package) should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 22
+[05-Apr-2020 15:28:17 UTC] PHP Stack trace:
+[05-Apr-2020 15:28:17 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:28:17 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:28:17 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:28:17 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 15:28:17 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:28:17 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:28:17 UTC] PHP   7. wc_template_redirect() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:28:17 UTC] PHP   8. WooCommerce->shipping() /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:72
+[05-Apr-2020 15:28:17 UTC] PHP   9. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/class-woocommerce.php:835
+[05-Apr-2020 15:28:17 UTC] PHP  10. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 15:28:17 UTC] PHP  11. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 15:28:17 UTC] PHP  12. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 15:28:17 UTC] PHP  13. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:28:17 UTC] PHP  14. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:28:17 UTC] PHP  15. my_shipping_method() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:28:17 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 190
+[05-Apr-2020 15:28:17 UTC] PHP Stack trace:
+[05-Apr-2020 15:28:17 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:28:17 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:28:17 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:28:17 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:106
+[05-Apr-2020 15:28:17 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/storefront/page.php:24
+[05-Apr-2020 15:28:17 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[05-Apr-2020 15:28:17 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:672
+[05-Apr-2020 15:28:17 UTC] PHP   8. require() /app/public/wp-includes/template.php:725
+[05-Apr-2020 15:28:17 UTC] PHP   9. do_action() /app/public/wp-content/themes/storefront/content-page.php:18
+[05-Apr-2020 15:28:17 UTC] PHP  10. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:28:17 UTC] PHP  11. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:28:17 UTC] PHP  12. storefront_page_content() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:28:17 UTC] PHP  13. the_content() /app/public/wp-content/themes/storefront/inc/storefront-template-functions.php:351
+[05-Apr-2020 15:28:17 UTC] PHP  14. apply_filters() /app/public/wp-includes/post-template.php:253
+[05-Apr-2020 15:28:17 UTC] PHP  15. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:206
+[05-Apr-2020 15:28:17 UTC] PHP  16. do_shortcode() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:28:17 UTC] PHP  17. preg_replace_callback() /app/public/wp-includes/shortcodes.php:218
+[05-Apr-2020 15:28:17 UTC] PHP  18. do_shortcode_tag() /app/public/wp-includes/shortcodes.php:218
+[05-Apr-2020 15:28:17 UTC] PHP  19. WC_Shortcodes::checkout() /app/public/wp-includes/shortcodes.php:343
+[05-Apr-2020 15:28:17 UTC] PHP  20. WC_Shortcodes::shortcode_wrapper() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php:95
+[05-Apr-2020 15:28:17 UTC] PHP  21. WC_Shortcode_Checkout::output() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php:72
+[05-Apr-2020 15:28:17 UTC] PHP  22. WC_Shortcode_Checkout::checkout() /app/public/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php:67
+[05-Apr-2020 15:28:17 UTC] PHP  23. wc_get_template() /app/public/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php:294
+[05-Apr-2020 15:28:17 UTC] PHP  24. include() /app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:251
+[05-Apr-2020 15:28:17 UTC] PHP  25. do_action() /app/public/wp-content/themes/storefront-child/woocommerce/checkout/form-checkout.php:64
+[05-Apr-2020 15:28:17 UTC] PHP  26. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:28:17 UTC] PHP  27. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:28:17 UTC] PHP  28. woocommerce_order_review() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:28:17 UTC] PHP  29. wc_get_template() /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:2216
+[05-Apr-2020 15:28:17 UTC] PHP  30. include() /app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:251
+[05-Apr-2020 15:28:17 UTC] PHP  31. do_action() /app/public/wp-content/plugins/woocommerce/templates/checkout/review-order.php:29
+[05-Apr-2020 15:28:17 UTC] PHP  32. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:28:17 UTC] PHP  33. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:28:17 UTC] PHP  34. my_validate_order() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:28:18 UTC] PHP Warning:  Declaration of My_Shipping_Method::calculate_shipping($package) should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 22
+[05-Apr-2020 15:28:18 UTC] PHP Stack trace:
+[05-Apr-2020 15:28:18 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:28:18 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:28:18 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:28:18 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 15:28:18 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:28:18 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:28:18 UTC] PHP   7. WC_AJAX::do_wc_ajax() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:28:18 UTC] PHP   8. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:89
+[05-Apr-2020 15:28:18 UTC] PHP   9. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:28:18 UTC] PHP  10. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:28:18 UTC] PHP  11. WC_AJAX::update_order_review() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:28:18 UTC] PHP  12. WC_Cart->calculate_shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:356
+[05-Apr-2020 15:28:18 UTC] PHP  13. WooCommerce->shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-cart.php:1259
+[05-Apr-2020 15:28:18 UTC] PHP  14. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/class-woocommerce.php:835
+[05-Apr-2020 15:28:18 UTC] PHP  15. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 15:28:18 UTC] PHP  16. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 15:28:18 UTC] PHP  17. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 15:28:18 UTC] PHP  18. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:28:18 UTC] PHP  19. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:28:18 UTC] PHP  20. my_shipping_method() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:28:18 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 190
+[05-Apr-2020 15:28:18 UTC] PHP Stack trace:
+[05-Apr-2020 15:28:18 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:28:18 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:28:18 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:28:18 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 15:28:18 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:28:18 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:28:18 UTC] PHP   7. WC_AJAX::do_wc_ajax() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:28:18 UTC] PHP   8. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:89
+[05-Apr-2020 15:28:18 UTC] PHP   9. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:28:18 UTC] PHP  10. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:28:18 UTC] PHP  11. WC_AJAX::update_order_review() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:28:18 UTC] PHP  12. woocommerce_order_review() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:361
+[05-Apr-2020 15:28:18 UTC] PHP  13. wc_get_template() /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:2216
+[05-Apr-2020 15:28:18 UTC] PHP  14. include() /app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:251
+[05-Apr-2020 15:28:18 UTC] PHP  15. do_action() /app/public/wp-content/plugins/woocommerce/templates/checkout/review-order.php:29
+[05-Apr-2020 15:28:18 UTC] PHP  16. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:28:18 UTC] PHP  17. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:28:18 UTC] PHP  18. my_validate_order() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:28:28 UTC] PHP Warning:  Declaration of My_Shipping_Method::calculate_shipping($package) should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 22
+[05-Apr-2020 15:28:28 UTC] PHP Stack trace:
+[05-Apr-2020 15:28:28 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:28:28 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:28:28 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:28:28 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 15:28:28 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:28:28 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:28:28 UTC] PHP   7. WC_AJAX::do_wc_ajax() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:28:28 UTC] PHP   8. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:89
+[05-Apr-2020 15:28:28 UTC] PHP   9. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:28:28 UTC] PHP  10. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:28:28 UTC] PHP  11. WC_AJAX::update_order_review() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:28:28 UTC] PHP  12. WC_Cart->calculate_shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:356
+[05-Apr-2020 15:28:28 UTC] PHP  13. WooCommerce->shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-cart.php:1259
+[05-Apr-2020 15:28:28 UTC] PHP  14. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/class-woocommerce.php:835
+[05-Apr-2020 15:28:28 UTC] PHP  15. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 15:28:28 UTC] PHP  16. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 15:28:28 UTC] PHP  17. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 15:28:28 UTC] PHP  18. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:28:28 UTC] PHP  19. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:28:28 UTC] PHP  20. my_shipping_method() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:28:28 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 99
+[05-Apr-2020 15:28:28 UTC] PHP Stack trace:
+[05-Apr-2020 15:28:28 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:28:28 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:28:28 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:28:28 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 15:28:28 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:28:28 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:28:28 UTC] PHP   7. WC_AJAX::do_wc_ajax() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:28:28 UTC] PHP   8. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:89
+[05-Apr-2020 15:28:28 UTC] PHP   9. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:28:28 UTC] PHP  10. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:28:28 UTC] PHP  11. WC_AJAX::update_order_review() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:28:28 UTC] PHP  12. WC_Cart->calculate_shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:356
+[05-Apr-2020 15:28:28 UTC] PHP  13. WC_Shipping->calculate_shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-cart.php:1259
+[05-Apr-2020 15:28:28 UTC] PHP  14. WC_Shipping->calculate_shipping_for_package() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:260
+[05-Apr-2020 15:28:28 UTC] PHP  15. My_Shipping_Method->get_rates_for_package() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:335
+[05-Apr-2020 15:28:28 UTC] PHP  16. My_Shipping_Method->calculate_shipping() /app/public/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php:233
+[05-Apr-2020 15:28:28 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 190
+[05-Apr-2020 15:28:28 UTC] PHP Stack trace:
+[05-Apr-2020 15:28:28 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:28:28 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:28:28 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:28:28 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 15:28:28 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:28:28 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:28:28 UTC] PHP   7. WC_AJAX::do_wc_ajax() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:28:28 UTC] PHP   8. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:89
+[05-Apr-2020 15:28:28 UTC] PHP   9. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:28:28 UTC] PHP  10. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:28:28 UTC] PHP  11. WC_AJAX::update_order_review() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:28:28 UTC] PHP  12. woocommerce_order_review() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:361
+[05-Apr-2020 15:28:28 UTC] PHP  13. wc_get_template() /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:2216
+[05-Apr-2020 15:28:28 UTC] PHP  14. include() /app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:251
+[05-Apr-2020 15:28:28 UTC] PHP  15. do_action() /app/public/wp-content/plugins/woocommerce/templates/checkout/review-order.php:29
+[05-Apr-2020 15:28:28 UTC] PHP  16. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:28:28 UTC] PHP  17. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:28:28 UTC] PHP  18. my_validate_order() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:30:07 UTC] PHP Warning:  Declaration of My_Shipping_Method::calculate_shipping() should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 22
+[05-Apr-2020 15:30:07 UTC] PHP Stack trace:
+[05-Apr-2020 15:30:07 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:30:07 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:30:07 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:30:07 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 15:30:07 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:30:07 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:30:07 UTC] PHP   7. wc_template_redirect() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:30:07 UTC] PHP   8. WooCommerce->shipping() /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:72
+[05-Apr-2020 15:30:07 UTC] PHP   9. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/class-woocommerce.php:835
+[05-Apr-2020 15:30:07 UTC] PHP  10. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 15:30:07 UTC] PHP  11. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 15:30:07 UTC] PHP  12. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 15:30:07 UTC] PHP  13. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:30:07 UTC] PHP  14. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:30:07 UTC] PHP  15. my_shipping_method() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:30:08 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 192
+[05-Apr-2020 15:30:08 UTC] PHP Stack trace:
+[05-Apr-2020 15:30:08 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:30:08 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:30:08 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:30:08 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:106
+[05-Apr-2020 15:30:08 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/storefront/page.php:24
+[05-Apr-2020 15:30:08 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[05-Apr-2020 15:30:08 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:672
+[05-Apr-2020 15:30:08 UTC] PHP   8. require() /app/public/wp-includes/template.php:725
+[05-Apr-2020 15:30:08 UTC] PHP   9. do_action() /app/public/wp-content/themes/storefront/content-page.php:18
+[05-Apr-2020 15:30:08 UTC] PHP  10. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:30:08 UTC] PHP  11. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:30:08 UTC] PHP  12. storefront_page_content() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:30:08 UTC] PHP  13. the_content() /app/public/wp-content/themes/storefront/inc/storefront-template-functions.php:351
+[05-Apr-2020 15:30:08 UTC] PHP  14. apply_filters() /app/public/wp-includes/post-template.php:253
+[05-Apr-2020 15:30:08 UTC] PHP  15. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:206
+[05-Apr-2020 15:30:08 UTC] PHP  16. do_shortcode() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:30:08 UTC] PHP  17. preg_replace_callback() /app/public/wp-includes/shortcodes.php:218
+[05-Apr-2020 15:30:08 UTC] PHP  18. do_shortcode_tag() /app/public/wp-includes/shortcodes.php:218
+[05-Apr-2020 15:30:08 UTC] PHP  19. WC_Shortcodes::checkout() /app/public/wp-includes/shortcodes.php:343
+[05-Apr-2020 15:30:08 UTC] PHP  20. WC_Shortcodes::shortcode_wrapper() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php:95
+[05-Apr-2020 15:30:08 UTC] PHP  21. WC_Shortcode_Checkout::output() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php:72
+[05-Apr-2020 15:30:08 UTC] PHP  22. WC_Shortcode_Checkout::checkout() /app/public/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php:67
+[05-Apr-2020 15:30:08 UTC] PHP  23. wc_get_template() /app/public/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php:294
+[05-Apr-2020 15:30:08 UTC] PHP  24. include() /app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:251
+[05-Apr-2020 15:30:08 UTC] PHP  25. do_action() /app/public/wp-content/themes/storefront-child/woocommerce/checkout/form-checkout.php:64
+[05-Apr-2020 15:30:08 UTC] PHP  26. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:30:08 UTC] PHP  27. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:30:08 UTC] PHP  28. woocommerce_order_review() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:30:08 UTC] PHP  29. wc_get_template() /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:2216
+[05-Apr-2020 15:30:08 UTC] PHP  30. include() /app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:251
+[05-Apr-2020 15:30:08 UTC] PHP  31. do_action() /app/public/wp-content/plugins/woocommerce/templates/checkout/review-order.php:29
+[05-Apr-2020 15:30:08 UTC] PHP  32. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:30:08 UTC] PHP  33. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:30:08 UTC] PHP  34. my_validate_order() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:30:08 UTC] PHP Warning:  Declaration of My_Shipping_Method::calculate_shipping() should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 22
+[05-Apr-2020 15:30:08 UTC] PHP Stack trace:
+[05-Apr-2020 15:30:08 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:30:08 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:30:08 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:30:08 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 15:30:08 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:30:08 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:30:08 UTC] PHP   7. WC_AJAX::do_wc_ajax() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:30:08 UTC] PHP   8. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:89
+[05-Apr-2020 15:30:08 UTC] PHP   9. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:30:08 UTC] PHP  10. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:30:08 UTC] PHP  11. WC_AJAX::update_order_review() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:30:08 UTC] PHP  12. WC_Cart->calculate_shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:356
+[05-Apr-2020 15:30:08 UTC] PHP  13. WooCommerce->shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-cart.php:1259
+[05-Apr-2020 15:30:08 UTC] PHP  14. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/class-woocommerce.php:835
+[05-Apr-2020 15:30:08 UTC] PHP  15. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 15:30:08 UTC] PHP  16. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 15:30:08 UTC] PHP  17. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 15:30:08 UTC] PHP  18. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:30:08 UTC] PHP  19. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:30:08 UTC] PHP  20. my_shipping_method() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:30:08 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 192
+[05-Apr-2020 15:30:08 UTC] PHP Stack trace:
+[05-Apr-2020 15:30:09 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:30:09 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:30:09 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:30:09 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 15:30:09 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:30:09 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:30:09 UTC] PHP   7. WC_AJAX::do_wc_ajax() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:30:09 UTC] PHP   8. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:89
+[05-Apr-2020 15:30:09 UTC] PHP   9. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:30:09 UTC] PHP  10. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:30:09 UTC] PHP  11. WC_AJAX::update_order_review() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:30:09 UTC] PHP  12. woocommerce_order_review() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:361
+[05-Apr-2020 15:30:09 UTC] PHP  13. wc_get_template() /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:2216
+[05-Apr-2020 15:30:09 UTC] PHP  14. include() /app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:251
+[05-Apr-2020 15:30:09 UTC] PHP  15. do_action() /app/public/wp-content/plugins/woocommerce/templates/checkout/review-order.php:29
+[05-Apr-2020 15:30:09 UTC] PHP  16. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:30:09 UTC] PHP  17. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:30:09 UTC] PHP  18. my_validate_order() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:30:17 UTC] PHP Warning:  Declaration of My_Shipping_Method::calculate_shipping() should be compatible with WC_Shipping_Method::calculate_shipping($package = Array) in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 22
+[05-Apr-2020 15:30:17 UTC] PHP Stack trace:
+[05-Apr-2020 15:30:17 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:30:17 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:30:17 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:30:17 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 15:30:17 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:30:17 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:30:17 UTC] PHP   7. WC_AJAX::do_wc_ajax() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:30:17 UTC] PHP   8. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:89
+[05-Apr-2020 15:30:17 UTC] PHP   9. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:30:17 UTC] PHP  10. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:30:17 UTC] PHP  11. WC_AJAX::update_order_review() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:30:17 UTC] PHP  12. WC_Cart->calculate_shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:356
+[05-Apr-2020 15:30:17 UTC] PHP  13. WooCommerce->shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-cart.php:1259
+[05-Apr-2020 15:30:17 UTC] PHP  14. WC_Shipping::instance() /app/public/wp-content/plugins/woocommerce/includes/class-woocommerce.php:835
+[05-Apr-2020 15:30:17 UTC] PHP  15. WC_Shipping->__construct() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:68
+[05-Apr-2020 15:30:17 UTC] PHP  16. WC_Shipping->init() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:114
+[05-Apr-2020 15:30:17 UTC] PHP  17. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:122
+[05-Apr-2020 15:30:17 UTC] PHP  18. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:30:17 UTC] PHP  19. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:30:17 UTC] PHP  20. my_shipping_method() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:30:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 96
+[05-Apr-2020 15:30:17 UTC] PHP Stack trace:
+[05-Apr-2020 15:30:17 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:30:17 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:30:17 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:30:17 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 15:30:17 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:30:17 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:30:17 UTC] PHP   7. WC_AJAX::do_wc_ajax() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:30:17 UTC] PHP   8. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:89
+[05-Apr-2020 15:30:17 UTC] PHP   9. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:30:17 UTC] PHP  10. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:30:17 UTC] PHP  11. WC_AJAX::update_order_review() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:30:17 UTC] PHP  12. WC_Cart->calculate_shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:356
+[05-Apr-2020 15:30:17 UTC] PHP  13. WC_Shipping->calculate_shipping() /app/public/wp-content/plugins/woocommerce/includes/class-wc-cart.php:1259
+[05-Apr-2020 15:30:17 UTC] PHP  14. WC_Shipping->calculate_shipping_for_package() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:260
+[05-Apr-2020 15:30:17 UTC] PHP  15. My_Shipping_Method->get_rates_for_package() /app/public/wp-content/plugins/woocommerce/includes/class-wc-shipping.php:335
+[05-Apr-2020 15:30:17 UTC] PHP  16. My_Shipping_Method->calculate_shipping() /app/public/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php:233
+[05-Apr-2020 15:30:17 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/plugins/my-shipping/my-shipping.php on line 192
+[05-Apr-2020 15:30:17 UTC] PHP Stack trace:
+[05-Apr-2020 15:30:17 UTC] PHP   1. {main}() /app/public/index.php:0
+[05-Apr-2020 15:30:17 UTC] PHP   2. require() /app/public/index.php:17
+[05-Apr-2020 15:30:17 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[05-Apr-2020 15:30:17 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[05-Apr-2020 15:30:17 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:30:17 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:30:17 UTC] PHP   7. WC_AJAX::do_wc_ajax() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:30:17 UTC] PHP   8. do_action() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:89
+[05-Apr-2020 15:30:17 UTC] PHP   9. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:30:17 UTC] PHP  10. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:30:17 UTC] PHP  11. WC_AJAX::update_order_review() /app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 15:30:17 UTC] PHP  12. woocommerce_order_review() /app/public/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:361
+[05-Apr-2020 15:30:17 UTC] PHP  13. wc_get_template() /app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php:2216
+[05-Apr-2020 15:30:17 UTC] PHP  14. include() /app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:251
+[05-Apr-2020 15:30:17 UTC] PHP  15. do_action() /app/public/wp-content/plugins/woocommerce/templates/checkout/review-order.php:29
+[05-Apr-2020 15:30:17 UTC] PHP  16. WP_Hook->do_action() /app/public/wp-includes/plugin.php:478
+[05-Apr-2020 15:30:17 UTC] PHP  17. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 15:30:17 UTC] PHP  18. my_validate_order() /app/public/wp-includes/class-wp-hook.php:287
